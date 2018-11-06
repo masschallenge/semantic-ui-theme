@@ -74,3 +74,12 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# semantic files
+src/*
+tasks/
+gulpfile.js
+!src/themes/masschallenge/
+!src/masschallenge.theme.config
+!src/theme.config
+dist/
