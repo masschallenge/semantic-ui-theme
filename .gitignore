@@ -77,9 +77,8 @@ typings/
 
 # semantic files
 src/*
-tasks/
+tasks/*
 gulpfile.js
 !src/themes/masschallenge/
-!src/masschallenge.theme.config
 !src/theme.config
 dist/
