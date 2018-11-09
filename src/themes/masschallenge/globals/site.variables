@@ -1,0 +1,30 @@
+/*******************************
+     MC Global Variables
+*******************************/
+
+
+/********** Fonts **********/
+
+@headerFont : 'Open Sans', Arial, Helvetica, sans-serif;
+@pageFont : 'Open Sans', Arial, Helvetica, sans-serif;
+@googleFontName : 'Open Sans';
+
+/********** Page **********/
+
+@pageBackground: #f1f1f1;
+@lineHeight: 1.3;
+@textColor: #676767;
+
+/********** Brand colors **********/
+
+@primaryColor: #0eacbd;
+@secondaryColor: #808284;
+@lightPrimaryColor : #75c1ce;
+@lightSecondaryColor: #a6a8aa;
+
+/********** Links **********/
+
+@linkColor: @primaryColor;
+@linkUnderline: none;
+@linkHoverColor: darken(@linkColor, 5);
+@linkHoverUnderline: @linkUnderline;
