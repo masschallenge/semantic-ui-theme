@@ -2,6 +2,20 @@
 
 This repository contains custom styling to be used across all our applications i.e. accelerate and the front-end applications
 
+## Prerequisites ##
+
+### Node ###
+
+- Confirm you have node installed by running `node -v`. Any version above or equal to 8 is known to work just fine. If a version number is not printed, go to the next step.
+
+- If you didn't get a version number above, [install node](https://nodejs.org/en/download/) and confirm with a `node -v` once the install is complete.
+
+### Gulp ###
+
+- Confirm you have gulp globally installed by running `gulp -v`. A positive result is seeing a `CLI` and `Local` version printed
+
+- If you don't have gulp installed, run `npm install --global gulp`. Confirm it has installed successfully with the step before this.
+
 ## Setup ##
 
 - Ensure you have cloned this repository following the [directory structure](https://github.com/masschallenge/standards/blob/master/set_up_development_environment.md#installation) specified.
@@ -9,6 +23,12 @@ This repository contains custom styling to be used across all our applications i
 - From inside the cloned repo, run
 
       npm  install
+
+- The `npm install`, as of this writing, will warn of vulnerable packages installed
+
+      added 891 packages from 454 contributors and audited 9790 packages in 67.378s
+      found 5 vulnerabilities (1 low, 4 high)
+  - This is a known and expected issue that we don't have control over.
 
 - You should be able to run `gulp build` and `gulp watch`
 
