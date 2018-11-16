@@ -6,11 +6,15 @@ This repository contains custom styling to be used across all our applications i
 
 ### Node ###
 
-- Confirm you have node installed by running `node -v`. Any version above or equal to 8 is known to work just fine. If a version number is not printed, go to the next step.
+**Minimum version**: 8
+
+- Confirm you have node installed by running `node -v`.
 
 - If you didn't get a version number above, [install node](https://nodejs.org/en/download/) and confirm with a `node -v` once the install is complete.
 
 ### Gulp ###
+
+**Minimum version**: 3.9.1
 
 - Confirm you have gulp globally installed by running `gulp -v`. A positive result is seeing a `CLI` and `Local` version printed
 
