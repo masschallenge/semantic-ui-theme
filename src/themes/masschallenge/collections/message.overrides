@@ -6,7 +6,7 @@
 Types of Messages
 --------------------*/
 
-.ui.form .error.message {
+.ui.basic.error.message {
   -webkit-box-shadow: none;
   box-shadow: none;
   background-color: transparent;
