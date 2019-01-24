@@ -76,9 +76,11 @@ typings/
 .fusebox/
 
 # semantic files
-src/*
+src/definitions/
+src/site/
+src/*.less
+src/themes/*
 tasks/*
 gulpfile.js
 !src/themes/masschallenge/
-!src/theme.config
 dist/
