@@ -1,0 +1,15 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+/*--------------------
+Types of Messages
+--------------------*/
+
+.ui.basic.error.message {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+  padding: 10px 0 0 0;
+  margin: -0.5em 0 1em;
+}

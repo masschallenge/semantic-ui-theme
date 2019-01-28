@@ -1,0 +1,25 @@
+{
+  "name": "semantic-ui-theme",
+  "version": "1.0.0",
+  "description": "MassChallenge customisations of Semantic UI.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masschallenge/semantic-ui-theme.git"
+  },
+  "author": "MassChallenge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masschallenge/semantic-ui-theme/issues"
+  },
+  "homepage": "https://github.com/masschallenge/semantic-ui-theme#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "prettier": "^1.14.3",
+    "semantic-ui": "^2.4.1"
+  }
+}
