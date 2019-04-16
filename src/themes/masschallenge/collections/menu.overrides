@@ -6,11 +6,6 @@
 Types of Menus
 --------------------*/
 
-.ui.sidenav.computer.only.menu .icon {
-    float: left;
-    margin: 0 1.143em 0 0;    
-}
-
 .ui.sidenav.mobile.only.menu .item.active {
     color: @primaryColor !important;
 }

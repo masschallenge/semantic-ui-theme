@@ -23,3 +23,6 @@
 
 
 @dropdownItemFontSize: 1.25em;
+
+@verticalIconFloat: left;
+@verticalIconMargin: 0 1.143em 0 0;
