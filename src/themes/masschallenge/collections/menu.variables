@@ -1,0 +1,25 @@
+/*******************************
+             Menu
+*******************************/
+
+@itemBackground: none transparent;
+@itemTextColor: #BFC0C1;
+
+@iconMenuItemColor: @itemTextColor;
+
+@hoverItemBackground: #E6E6E6;
+@hoverItemTextColor: #1C1F2A;
+
+@activeItemColor: @primaryColor;
+@activeItemBackground: #FFFFFF;
+@iconMenuInvertedItemColor: @primaryColor;
+
+@secondaryActiveItemColor: @activeItemColor;
+@secondaryActiveItemBackground: @activeItemBackground;
+
+@dropdownItemColor: @itemTextColor;
+@dropdownSelectedItemBackground: @activeItemBackground;
+@dropdownSelectedItemColor: @activeItemColor;
+
+
+@dropdownItemFontSize: 1.25em;
