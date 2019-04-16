@@ -1,0 +1,29 @@
+/*******************************
+         Menu Overrides
+*******************************/
+
+/*--------------------
+Types of Menus
+--------------------*/
+
+.ui.sidenav.computer.only.menu .icon {
+    float: left;
+    margin: 0 1.143em 0 0;    
+}
+
+.ui.sidenav.mobile.only.menu .item.active {
+    color: @primaryColor !important;
+}
+
+.ui.sidenav.mobile.only.menu .item {
+    padding-top: 0.8em !important;
+    padding-bottom: 0.8em !important;
+}
+
+.ui.sidenav .ui.dropdown.upward>.menu {
+    margin: 0 0.5em 0.5em 0;
+}
+
+.ui.sidenv.labeled.icon.menu .item>.icon:not(.dropdown) {
+    margin-bottom: 0.25em;
+}
