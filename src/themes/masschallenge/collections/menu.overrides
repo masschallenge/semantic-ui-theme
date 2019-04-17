@@ -19,6 +19,6 @@ Types of Menus
     margin: 0 0.5em 0.5em 0;
 }
 
-.ui.sidenv.labeled.icon.menu .item>.icon:not(.dropdown) {
+.ui.sidenav.labeled.icon.menu .item>.icon:not(.dropdown) {
     margin-bottom: 0.25em;
 }
