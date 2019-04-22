@@ -2,9 +2,10 @@
          Menu Overrides
 *******************************/
 
-/*--------------------
-Types of Menus
---------------------*/
+.ui.sidenav.computer.only.secondary.vertical.menu a.active.item:hover {
+    color: @primaryColor;
+    background-color: @activeItemBackground;
+}
 
 .ui.sidenav.mobile.only.menu .item.active {
     color: @primaryColor !important;
