@@ -3,7 +3,7 @@
 *******************************/
 
 @itemBackground: none transparent;
-@itemTextColor: #BFC0C1;
+@itemTextColor: #1C1F2A;
 
 @iconMenuItemColor: @itemTextColor;
 
