@@ -10,6 +10,9 @@
 @hoverItemBackground: #E6E6E6;
 @hoverItemTextColor: #1C1F2A;
 
+@secondaryHoverItemBackground: @hoverItemBackground;
+@secondaryHoverItemColor: @hoverItemTextColor;
+
 @activeItemColor: @primaryColor;
 @activeItemBackground: #FFFFFF;
 @iconMenuInvertedItemColor: @primaryColor;
