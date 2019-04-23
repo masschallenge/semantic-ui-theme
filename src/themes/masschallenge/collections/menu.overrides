@@ -11,9 +11,9 @@
     color: @primaryColor !important;
 }
 
-.ui.sidenav.mobile.only.menu .item {
-    padding-top: 0.8em !important;
-    padding-bottom: 0.8em !important;
+.ui.sidenav.mobile.only.menu .upward .item {
+    min-width: 180px;
+    padding: 1.1em 1.5em !important;
 }
 
 .ui.sidenav .ui.dropdown.upward>.menu {
