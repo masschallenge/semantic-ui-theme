@@ -2,7 +2,7 @@
              Menu
 *******************************/
 
-@itemBackground: none transparent;
+@itemBackground: transparent;
 @itemTextColor: #1C1F2A;
 
 @iconMenuItemColor: @itemTextColor;

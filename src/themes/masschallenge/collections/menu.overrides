@@ -2,7 +2,7 @@
          Menu Overrides
 *******************************/
 
-.ui.sidenav.computer.only.secondary.vertical.menu a.active.item:hover {
+.ui.sidenav.menu a.active.item:hover {
     color: @primaryColor;
     background-color: @activeItemBackground;
 }
