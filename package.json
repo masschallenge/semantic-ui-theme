@@ -1,8 +1,7 @@
 {
   "name": "semantic-ui-theme",
-  "version": "1.0.0",
+  "version": "1.0.13",
   "description": "MassChallenge customisations of Semantic UI.",
-  "main": "index.js",
   "scripts": {
     "build": "gulp build",
     "watch": "gulp watch"
@@ -18,8 +17,15 @@
   },
   "homepage": "https://github.com/masschallenge/semantic-ui-theme#readme",
   "dependencies": {
-    "fs-extra": "^7.0.0",
-    "prettier": "^1.14.3",
-    "semantic-ui": "^2.4.1"
-  }
+    "fs-extra": "^7.0.0"
+  },
+  "devDependencies": {
+    "semantic-ui": "^2.4.1",
+    "prettier": "^1.14.3"
+  },
+  "files": [
+    "dist/semantic.min.css",
+    "dist/themes",
+    "dist/semantic.css"
+  ]
 }
