@@ -5,6 +5,7 @@
 /***** Item Colors *****/
 @itemBackground: transparent;
 @itemTextColor: #1C1F2A;
+@secondaryPointingHeaderColor: @itemTextColor;
 
 /***** Item Menu Item Colors *****/
 @iconMenuItemColor: @itemTextColor;
@@ -15,6 +16,8 @@
 
 @secondaryHoverItemBackground: @hoverItemBackground;
 @secondaryHoverItemColor: @hoverItemTextColor;
+@secondaryPointingHoverTextColor: @hoverItemTextColor;
+
 
 /***** Item Active State Colors *****/
 @activeItemColor: @primaryColor;
@@ -23,6 +26,9 @@
 
 @secondaryActiveItemColor: @activeItemColor;
 @secondaryActiveItemBackground: @activeItemBackground;
+@secondaryPointingActiveTextColor: @primaryColor;
+@secondaryPointingActiveBorderColor: @primaryColor;
+
 
 /*****  Drop Down Colors *****/
 @dropdownItemColor: @itemTextColor;
