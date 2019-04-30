@@ -4,6 +4,10 @@ node_js:
   - "10.1"
 
 script:
-  - npm version patch
-  - npm publish
+  - npm run-script build
+
+deploy:
+  provider: npm
+  email: "brian@masschallenge.org"
+  api_key: "b043318c-ba86-4e88-aaf0-8c989242d65d"
 
