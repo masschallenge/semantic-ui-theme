@@ -1,6 +1,6 @@
 {
   "name": "semantic-ui-theme",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "MassChallenge customisations of Semantic UI.",
   "scripts": {
     "build": "gulp build",
