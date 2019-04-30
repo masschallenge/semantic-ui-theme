@@ -10,6 +10,6 @@ deploy:
   provider: npm
   email: "brian@masschallenge.org"
   api_key: "b043318c-ba86-4e88-aaf0-8c989242d65d"
+  skip_cleanup: true
   on:
     all_branches: true
-
