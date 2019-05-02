@@ -80,7 +80,7 @@ src/definitions/
 src/site/
 src/*.less
 src/themes/*
-# tasks/*
-# gulpfile.js
+tasks/*
+gulpfile.js
 !src/themes/masschallenge/
 dist/
