@@ -83,4 +83,7 @@ src/themes/*
 tasks/*
 gulpfile.js
 !src/themes/masschallenge/
-dist/
+dist/components
+dist/semantic.css
+dist/semantic.js
+dist/semantic.min.js
