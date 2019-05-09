@@ -22,10 +22,5 @@
   "devDependencies": {
     "semantic-ui": "^2.4.1",
     "prettier": "^1.14.3"
-  },
-  "files": [
-    "dist/semantic.min.css",
-    "dist/themes",
-    "dist/semantic.css"
-  ]
+  }
 }
