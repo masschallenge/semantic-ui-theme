@@ -1,0 +1,40 @@
+/*******************************
+             Menu
+*******************************/
+
+/***** Item Colors *****/
+@itemBackground: transparent;
+@itemTextColor: #1C1F2A;
+@secondaryPointingHeaderColor: @itemTextColor;
+
+/***** Item Menu Item Colors *****/
+@iconMenuItemColor: @itemTextColor;
+
+/***** Item Hover State Colors *****/
+@hoverItemBackground: #E6E6E6;
+@hoverItemTextColor: #1C1F2A;
+
+@secondaryHoverItemBackground: @hoverItemBackground;
+@secondaryHoverItemColor: @hoverItemTextColor;
+@secondaryPointingHoverTextColor: @hoverItemTextColor;
+
+
+/***** Item Active State Colors *****/
+@activeItemColor: @primaryColor;
+@activeItemBackground: #FFFFFF;
+@iconMenuInvertedItemColor: @primaryColor;
+
+@secondaryActiveItemColor: @activeItemColor;
+@secondaryActiveItemBackground: @activeItemBackground;
+@secondaryPointingActiveTextColor: @primaryColor;
+@secondaryPointingActiveBorderColor: @primaryColor;
+
+
+/*****  Drop Down Colors *****/
+@dropdownItemColor: @itemTextColor;
+@dropdownSelectedItemBackground: @activeItemBackground;
+@dropdownSelectedItemColor: @activeItemColor;
+
+/***** Item Spacing *****/
+@verticalIconFloat: left;
+@verticalIconMargin: 0 1.143em 0 0;

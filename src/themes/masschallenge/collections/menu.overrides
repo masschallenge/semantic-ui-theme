@@ -1,0 +1,26 @@
+/*******************************
+         Menu Overrides
+*******************************/
+
+.ui.sidenav.menu a.active.item:hover {
+    color: @primaryColor;
+    background-color: @activeItemBackground;
+}
+
+.ui.sidenav.mobile.only.menu .item.active {
+    color: @primaryColor !important;
+}
+
+.ui.sidenav.mobile.only.menu .upward .item {
+    min-width: 180px;
+    padding: 1.1em 1.5em !important;
+    font-size: 1.25em !important;
+}
+
+.ui.sidenav .ui.dropdown.upward>.menu {
+    margin: 0 0.5em 0.5em 0;
+}
+
+.ui.sidenav.labeled.icon.menu .item>.icon:not(.dropdown) {
+    margin-bottom: 0.25em;
+}
