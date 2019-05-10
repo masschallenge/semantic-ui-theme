@@ -87,3 +87,7 @@ dist/components
 dist/semantic.css
 dist/semantic.js
 dist/semantic.min.js
+dist/themes/basic
+dist/themes/github
+dist/themes/material
+
