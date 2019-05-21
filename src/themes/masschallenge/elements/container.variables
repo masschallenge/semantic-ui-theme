@@ -1,0 +1,11 @@
+/*******************************
+            Container
+*******************************/
+
+/*Devices*/
+@maxWidth: 100%;
+
+@computerMargin: 8.5em 1.5em 4em;
+@computerGutter: 3em;
+
+@mobileMargin: 3.5em 0 7em;
