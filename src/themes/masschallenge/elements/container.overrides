@@ -2,8 +2,8 @@
          Theme Overrides
 *******************************/
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-.container{
+@media screen and (min-width: @tabletBreakpoint) and (max-width: @computerBreakpoint) {
+.ui.container{
     display: grid;
     grid-column: @columnCount;
     grid-template-columns: @columnWidth1 @columnWidth2;
@@ -13,8 +13,8 @@
     }
 }
 
-@media screen and (min-width: 315px) and (max-width: 425px) {
-.container{
+@media screen and (min-width: @mobileBreakpoint1) and (max-width: @mobileBreakpoint2) {
+.ui.container{
     display: grid;
     margin: @mobileMargin;
     grid-template-areas: "topbar topbar"

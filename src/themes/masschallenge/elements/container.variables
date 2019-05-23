@@ -3,6 +3,11 @@
 *******************************/
 
 /*Devices*/
+@computerBreakpoint: 1440px;
+@tabletBreakpoint: 768px;
+@mobileBreakpoint1: 315px;
+@mobileBreakpoint2: 425px;
+
 @maxWidth: 100%;
 
 @computerMargin: 8.5em 1.5em 4em;
