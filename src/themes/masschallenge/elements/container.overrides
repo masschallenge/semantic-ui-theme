@@ -8,8 +8,8 @@
     grid-column: 2;
     grid-template-columns: 220px 960px;
     grid-template-areas: "topbar topbar" "sidebar content";
-    grid-template-rows: 55px calc(100vh - 55px - 2em);
-    grid-gap: 2em;
+    grid-template-rows: 55px calc(100vh - 55px - 3em);
+    grid-gap: 3em;
     }
 }
 
