@@ -5,11 +5,11 @@
 @media screen and (min-width: 768px) and (max-width: 1440px) {
 .container{
     display: grid;
-    grid-column: 2;
-    grid-template-columns: 220px 960px;
+    grid-column: @columnCount;
+    grid-template-columns: @columnWidth1 @columnWidth2;
     grid-template-areas: "topbar topbar" "sidebar content";
-    grid-template-rows: 55px calc(100vh - 55px - 3em);
-    grid-gap: 3em;
+    grid-template-rows: @rowHeight calc(@viewportHeight - @rowHeight - @columnGap);
+    grid-gap: @columnGap;
     }
 }
 

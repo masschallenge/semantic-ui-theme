@@ -7,5 +7,11 @@
 
 @computerMargin: 8.5em 1.5em 4em;
 @computerGutter: 3em;
+@columnCount: 2;
+@columnWidth1: 220px;
+@columnWidth2: 1fr;
+@rowHeight: 55px;
+@viewportHeight: 100vh;
+@columnGap: 3em;
 
 @mobileMargin: 3.5em 0 7em;
