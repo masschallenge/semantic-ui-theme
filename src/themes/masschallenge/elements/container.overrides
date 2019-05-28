@@ -2,23 +2,34 @@
          Theme Overrides
 *******************************/
 
-@media screen and (min-width: @tabletBreakpoint) and (max-width: @computerBreakpoint) {
-.ui.container{
-    display: grid;
-    grid-column: @columnCount;
-    grid-template-columns: @columnWidth1 @columnWidth2;
-    grid-template-areas: "topbar topbar" "sidebar content";
-    grid-template-rows: @rowHeight calc(@viewportHeight - @rowHeight - @columnGap);
-    grid-gap: @columnGap;
+@media screen and (min-width: @tabletBreakpoint1){
+    .container > .grid.primary {
+        display: grid;
+        grid-column: @columnCount;
+        grid-template-columns: @columnWidth1 @columnWidth2;
+        grid-template-areas: "topbar topbar" "sidebar content";
+        grid-template-rows: @rowHeight1;
+        grid-gap: @columnGap;
+    }
+    .sidebar {
+        display: block;
+    }
+    .mobile-tab-nav {
+        display: none;
     }
 }
 
-@media screen and (min-width: @mobileBreakpoint1) and (max-width: @mobileBreakpoint2) {
-.ui.container{
-    display: grid;
-    margin: @mobileMargin;
-    grid-template-areas: "topbar topbar"
-                        "content content"
-                        "sidebar sidebar";
+@media screen and (max-width: @tabletBreakpoint) {
+    .container > .grid.primary {
+        display: grid;
+        grid-template-areas: "topbar" "content" "mobile-tab-nav";
+        grid-template-rows: @rowHeight1 @columnWidth2 @rowHeight2;
+        
+    }
+    .sidebar {
+        display: none;
+    } 
+    .mobile-tab-nav {
+        display: block;
     }
 }

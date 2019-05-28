@@ -3,20 +3,17 @@
 *******************************/
 
 /*Devices*/
-@computerBreakpoint: 1440px;
 @tabletBreakpoint: 768px;
-@mobileBreakpoint1: 315px;
-@mobileBreakpoint2: 425px;
+@tabletBreakpoint1: 769px;
 
 @maxWidth: 100%;
-
-@computerMargin: 8.5em 1.5em 4em;
-@computerGutter: 3em;
+@columnGap: 2em 1em;
 @columnCount: 2;
 @columnWidth1: 220px;
 @columnWidth2: 1fr;
-@rowHeight: 55px;
-@viewportHeight: 100vh;
-@columnGap: 3em;
 
-@mobileMargin: 3.5em 0 7em;
+@rowHeight1: 55px;
+@rowHeight2: 58px;
+@viewportHeight: 100vh;
+
+
