@@ -24,3 +24,25 @@
 .ui.sidenav.labeled.icon.menu .item>.icon:not(.dropdown) {
     margin-bottom: 0.25em;
 }
+.scrollablemenu {
+    overflow: scroll;
+    position: relative;
+    overflow-y: hidden; 
+    overflow-x: auto;
+}
+.left-gradient {
+    display: block;
+    height: 78px;
+    width: 60px;
+    position: absolute;
+    background: linear-gradient(to left, transparent, #F1F3F5);
+}
+.right-gradient {
+    display: block;
+    height: 78px;
+    width: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to right, transparent, #F1F3F5);
+}
