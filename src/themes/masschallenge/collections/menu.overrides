@@ -46,8 +46,8 @@
 			rgba(0,0,0,0)
 		),
 		radial-gradient(
-			farthest-side at 100% 50%,
-			rgba(0,0,0,.2),
+			farthest-side at 100% 0%,
+			#F1F3F5,
 			rgba(0,0,0,0)
 		) 100% 0%;
 	background-repeat: no-repeat;
