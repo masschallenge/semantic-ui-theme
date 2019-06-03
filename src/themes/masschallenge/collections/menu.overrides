@@ -31,7 +31,7 @@
     height: 17px;
     background: #fff;
     position: relative;
-    top: -62px
+    top: -15px;
 }
 .scrollbox {
 	overflow: auto;
