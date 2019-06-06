@@ -17,7 +17,43 @@
     .mobile-tab-nav {
         display: none;
     }
+    .grid.primary > .content {
+      margin: @computerMargin1;
+    }
 }
+
+  .grid.primary > .topbar{
+      grid-area: topbar;
+  }
+  .grid.primary > .sidebar{
+      grid-area: sidebar;
+      padding: @padding;
+  }
+  .menu-side{
+      position: fixed;
+      top: calc(@rowHeight3 + @columnGap2);
+  }
+  .grid.primary > .content{
+      padding: @padding;
+      grid-area: content;
+      background: #fff;
+      border: 1px solid #eaeaea;
+      border-radius: 3px;
+  }
+
+  footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    footer > .computer {
+      margin: @computerMargin;
+    }
+    footer > .mobile {
+      flex-direction: column;
+      margin: @mobileMargin;
+    }
+
 
 @media screen and (max-width: @tabletBreakpoint) {
     .container > .grid.primary {

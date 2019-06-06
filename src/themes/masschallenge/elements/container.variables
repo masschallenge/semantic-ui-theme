@@ -8,12 +8,18 @@
 
 @maxWidth: 100%;
 @columnGap: 2em 1em;
+@columnGap2: 2em;
 @columnCount: 2;
 @columnWidth1: 220px;
 @columnWidth2: 1fr;
 
 @rowHeight1: 55px;
 @rowHeight2: 58px;
+@rowHeight3: 70px;
 @viewportHeight: 100vh;
 
+@padding: 16px;
+@computerMargin: 2.5em 0 1.5em;
+@mobileMargin: 0.5em 0 2em;
+@computerMargin1: 0 1em 2em 0;
 
