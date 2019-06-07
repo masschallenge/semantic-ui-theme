@@ -2,14 +2,14 @@
          Theme Overrides
 *******************************/
 
-@media screen and (min-width: @tabletBreakpoint1){
+@media screen and (min-width: 769px){
     .container > .grid.primary {
         display: grid;
-        grid-column: @columnCount;
-        grid-template-columns: @columnWidth1 @columnWidth2;
+        grid-column: 2;
+        grid-template-columns: 220px 1fr;
         grid-template-areas: "topbar topbar" "sidebar content";
-        grid-template-rows: @rowHeight1;
-        grid-gap: @columnGap;
+        grid-template-rows: 55px auto;
+        grid-gap: 2em 1em;
     }
     .sidebar {
         display: block;
@@ -18,7 +18,7 @@
         display: none;
     }
     .grid.primary > .content {
-      margin: @computerMargin1;
+      margin: 0 1em 2em 0;
     }
 }
 
@@ -31,7 +31,7 @@
   }
   .menu-side{
       position: fixed;
-      top: calc(@rowHeight3 + @columnGap2);
+      top: calc(70px + 2em);
   }
   .grid.primary > .content{
       padding: @padding;
@@ -47,19 +47,19 @@
       justify-content: space-between;
     }
     footer > .computer {
-      margin: @computerMargin;
+      margin: 2.5em 0 1.5em;
     }
     footer > .mobile {
       flex-direction: column;
-      margin: @mobileMargin;
+      margin: 0.5em 0 2em;
     }
 
 
-@media screen and (max-width: @tabletBreakpoint) {
+@media screen and (max-width: 768px) {
     .container > .grid.primary {
         display: grid;
         grid-template-areas: "topbar" "content" "mobile-tab-nav";
-        grid-template-rows: @rowHeight1 @columnWidth2 @rowHeight2;
+        grid-template-rows: 55px 1fr 58px;
         
     }
     .sidebar {
