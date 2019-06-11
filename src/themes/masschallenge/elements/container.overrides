@@ -2,12 +2,38 @@
          Theme Overrides
 *******************************/
 
-@media screen and (min-width: 769px){
+.container > .grid.primary {
+        display: grid;
+        grid-template-areas: "topbar" "content" "footer" "mobile-tab-nav";
+        grid-template-rows: 55px 1fr 58px;  
+    }
+    .sidebar {
+        display: none;
+    } 
+    .mobile-tab-nav {
+        display: block;
+    }
+    .grid.primary > .footer {
+        margin: 1em 0.5em 0 2em;
+    }
+    .grid.primary > .topbar{
+        grid-area: topbar;
+    }
+ 
+    .grid.primary > .content{
+        padding: @padding;
+        grid-area: content;
+        background: #fff;
+        border: 1px solid #eaeaea;
+        border-radius: 3px;
+    }
+
+@media screen and (min-width: @tabletBreakpoint){
     .container > .grid.primary {
         display: grid;
         grid-column: 2;
-        grid-template-columns: 220px 1fr;
-        grid-template-areas: "topbar topbar" "sidebar content";
+        grid-template-columns: 220px 960px;
+        grid-template-areas: "topbar topbar" "sidebar content" "sidebar footer";
         grid-template-rows: 55px auto;
         grid-gap: 2em 1em;
     }
@@ -20,52 +46,19 @@
     .grid.primary > .content {
       margin: 0 1em 2em 0;
     }
-}
-
-  .grid.primary > .topbar{
-      grid-area: topbar;
-  }
-  .grid.primary > .sidebar{
+    .grid.primary > .sidebar{
       grid-area: sidebar;
       padding: @padding;
   }
-  .menu-side{
+   .menu-side{
       position: fixed;
-      top: calc(70px + 2em);
+      top: calc(56px + 2em);
   }
-  .grid.primary > .content{
-      padding: @padding;
-      grid-area: content;
-      background: #fff;
-      border: 1px solid #eaeaea;
-      border-radius: 3px;
-  }
-
-  footer {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    footer > .computer {
-      margin: 2.5em 0 1.5em;
-    }
-    footer > .mobile {
-      flex-direction: column;
-      margin: 0.5em 0 2em;
-    }
-
-
-@media screen and (max-width: 768px) {
-    .container > .grid.primary {
-        display: grid;
-        grid-template-areas: "topbar" "content" "mobile-tab-nav";
-        grid-template-rows: 55px 1fr 58px;
-        
-    }
-    .sidebar {
-        display: none;
-    } 
-    .mobile-tab-nav {
-        display: block;
+  .grid.primary > .footer {
+        grid-area: footer;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2.5em 0 1.5em;
     }
 }
