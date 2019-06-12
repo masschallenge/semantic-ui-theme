@@ -21,7 +21,7 @@
         grid-area: footer;
         display: flex;
         flex-wrap: wrap;
-        padding: 1em;
+        padding: @padding;
     }
 
 @media screen and (max-width: @tabletBreakpoint){
@@ -45,7 +45,7 @@
     }
 }
 
-@media screen and (min-width: @tabletBreakpoint1){
+@media screen and (min-width: @tabletBreakpoint){
     .container > .grid.primary {
         display: grid;
         grid-column: 2;
