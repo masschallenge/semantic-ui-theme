@@ -2,7 +2,7 @@
          Theme Overrides
 *******************************/
 
-.grid.primary > .content > .ui.secondary.pointing.menu {
+    .grid.primary > .content > .ui.secondary.pointing.menu {
         margin-top: 0;
     }
 
@@ -18,6 +18,7 @@
         border-radius: 3px;
     }
     .grid.primary > .footer {
+        grid-area: footer;
         display: flex;
         flex-wrap: wrap;
         padding: 1em;
@@ -27,12 +28,12 @@
 .container > .grid.primary {
         display: grid;
         grid-template-areas: "topbar" "content" "footer" "mobile-tab-nav";
-        grid-template-rows: 55px 1fr 58px;  
+        grid-template-rows: 55px 1fr auto auto;  
     }
-    .sidebar {
+    .grid.primary > .sidebar {
         display: none;
     } 
-    .mobile-tab-nav {
+    .grid.primary > .mobile-tab-nav {
         display: block;
     }
     .grid.primary > .footer {
@@ -52,10 +53,10 @@
         grid-template-rows: 55px auto;
         grid-gap: 2em 1em;
     }
-    .sidebar {
+    .grid.primary > .sidebar {
         display: block;
     }
-    .mobile-tab-nav {
+    .grid.primary > .mobile-tab-nav {
         display: none;
     }
     .grid.primary > .content {

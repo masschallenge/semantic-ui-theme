@@ -5,3 +5,4 @@
 /*Devices*/
 @padding: 16px;
 @tabletBreakpoint: 768px;
+@tabletBreakpoint1: 769px;
