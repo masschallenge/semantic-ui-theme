@@ -34,6 +34,7 @@
         display: none;
     } 
     .grid.primary > .mobile-tab-nav {
+        grid-area: mobile-tab-nav;
         display: block;
     }
     .grid.primary > .footer {
