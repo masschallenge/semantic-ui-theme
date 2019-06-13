@@ -1,0 +1,78 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+    .grid.primary > .content > .ui.secondary.pointing.menu {
+        margin-top: 0;
+    }
+
+    .grid.primary > .topbar{
+        grid-area: topbar;
+    }
+ 
+    .grid.primary > .content{
+        padding: @padding;
+        grid-area: content;
+        background: #fff;
+        border: 1px solid #eaeaea;
+        border-radius: 3px;
+    }
+    .grid.primary > .footer {
+        grid-area: footer;
+        display: flex;
+        flex-wrap: wrap;
+        padding: @padding;
+    }
+
+@media screen and (max-width: @tabletBreakpoint){
+.container > .grid.primary {
+        display: grid;
+        grid-template-areas: "topbar" "content" "footer" "mobile-tab-nav";
+        grid-template-rows: 55px 1fr auto auto;  
+    }
+    .grid.primary > .sidebar {
+        display: none;
+    } 
+    .grid.primary > .mobile-tab-nav {
+        grid-area: mobile-tab-nav;
+        display: block;
+    }
+    .grid.primary > .footer {
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 6em;
+    }
+}
+
+@media screen and (min-width: @tabletBreakpoint){
+    .container > .grid.primary {
+        display: grid;
+        grid-column: 2;
+        grid-template-columns: 220px minmax(auto, 960px);
+        grid-template-areas: "topbar topbar" "sidebar content" "sidebar footer";
+        grid-template-rows: 55px auto;
+        grid-gap: 2em 1em;
+    }
+    .grid.primary > .sidebar {
+        display: block;
+    }
+    .grid.primary > .mobile-tab-nav {
+        display: none;
+    }
+    .grid.primary > .content {
+      margin: 0 1em 2em 0;
+    }
+    .grid.primary > .sidebar{
+      grid-area: sidebar;
+      padding: @padding;
+  }
+   .menu-side{
+      position: fixed;
+      top: calc(56px + 2em);
+  }
+  .grid.primary > .footer {
+        justify-content: space-between;
+        margin: 1.5em 0em 0.5em;
+    }
+}
