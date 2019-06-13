@@ -1,0 +1,7 @@
+/*******************************
+            Container
+*******************************/
+
+/*Devices*/
+@padding: 16px;
+@tabletBreakpoint: 769px;
