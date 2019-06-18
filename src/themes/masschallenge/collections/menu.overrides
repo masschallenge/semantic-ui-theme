@@ -25,7 +25,7 @@
     margin-bottom: 0.25em;
 }
 
-.scrollbox {
+.ui-scrollable-menu {
 	overflow-x: auto;
 	background:
 		linear-gradient(90deg, white 0%, rgba(255,255,255,0)),
@@ -46,23 +46,19 @@
 	background-attachment: local, local, scroll, scroll;
 }
 
-.scrollbox .ui.dropdown {
+.ui-scrollable-menu .ui.dropdown, .ui-scrollable-menu .ui.menu .item{
 	position:static;
 }
 
-.scrollbox .ui.menu .item {
-	position:static;
-}
-
-.scrollbox-wrapper {
+.ui-scrollable-menu-wrapper {
 	position: relative;
 }
 
-.scrollbox::-webkit-scrollbar{
+.ui-scrollable-menu::-webkit-scrollbar{
   display: none;
 }
 
-.scrollbox .ui.menu .dropdown.item .menu{
+.ui-scrollable-menu .ui.menu .dropdown.item .menu{
 	min-width: 0;
 	width: 150px;
 	left: 70px;
