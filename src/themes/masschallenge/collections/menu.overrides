@@ -25,16 +25,8 @@
     margin-bottom: 0.25em;
 }
 
-.scrollbar-hider {
-    display: block;
-    width: 100%;
-    height: 17px;
-    background: #fff;
-    position: relative;
-    top: -12px;
-} 
-.scrollbox {
-	overflow: auto;
+.ui.scrollable.menu {
+	overflow-x: auto;
 	background:
 		linear-gradient(90deg, white 0%, rgba(255,255,255,0)),
 		linear-gradient(-90deg, white 0%, rgba(255,255,255,0)) 100% 0,
@@ -52,4 +44,23 @@
 	background-color: #fff;
 	background-size: 100px 137px, 100px 137px, 14px 137px, 14px 137px;
 	background-attachment: local, local, scroll, scroll;
+	border-bottom: 2px solid rgba(34,36,38,.15);
+	margin-bottom: 1.5em;
+	padding-bottom: 2px;
 }
+
+.ui.scrollable.menu .ui.dropdown, .ui.scrollable.menu .ui.menu .item {
+	position:static;
+}
+
+.ui.scrollable.menu::-webkit-scrollbar {
+  display: none;
+}
+
+.ui.scrollable.menu .ui.dropdown.item .menu {
+	min-width: 0;
+	width: 150px;
+	left: 70px;
+}
+
+
