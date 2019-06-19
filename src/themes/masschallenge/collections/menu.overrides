@@ -25,12 +25,6 @@
     margin-bottom: 0.25em;
 }
 
-
-.ui.scrollable.menu {
-	border-bottom: 2px solid rgba(34,36,38,.15);
-	margin-bottom: 1.5em;
-}
-
 .ui.scrollable.menu {
 	overflow-x: auto;
 	background:
@@ -50,6 +44,8 @@
 	background-color: #fff;
 	background-size: 100px 137px, 100px 137px, 14px 137px, 14px 137px;
 	background-attachment: local, local, scroll, scroll;
+	border-bottom: 2px solid rgba(34,36,38,.15);
+	margin-bottom: 1.5em;
 }
 
 .ui.scrollable.menu .ui.dropdown, .ui.scrollable.menu .ui.menu .item {
