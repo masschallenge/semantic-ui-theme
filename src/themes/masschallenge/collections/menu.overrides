@@ -62,8 +62,4 @@
 	left: 70px;
 }
 
-.ui.basic.unpadded.segment {
-	padding: 0px;
-}
-
 

@@ -1,0 +1,7 @@
+/*******************************
+         Menu Overrides
+*******************************/
+
+.ui.basic.unpadded.segment {
+	padding: 0px;
+}
