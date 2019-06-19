@@ -46,6 +46,7 @@
 	background-attachment: local, local, scroll, scroll;
 	border-bottom: 2px solid rgba(34,36,38,.15);
 	margin-bottom: 1.5em;
+	padding-bottom: 2px;
 }
 
 .ui.scrollable.menu .ui.dropdown, .ui.scrollable.menu .ui.menu .item {
@@ -56,7 +57,7 @@
   display: none;
 }
 
-.ui.menu .dropdown.item .menu {
+.ui.scrollable.menu .ui.dropdown.item .menu {
 	min-width: 0;
 	width: 150px;
 	left: 70px;
