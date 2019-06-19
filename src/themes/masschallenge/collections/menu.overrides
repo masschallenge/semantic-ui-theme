@@ -28,6 +28,7 @@
 
 .ui.scrollable.menu {
 	border-bottom: 2px solid rgba(34,36,38,.15);
+	margin-bottom: 1.5em;
 }
 
 .ui.scrollable.menu {
@@ -51,21 +52,22 @@
 	background-attachment: local, local, scroll, scroll;
 }
 
-.ui.scrollable.menu .ui.dropdown, .ui.scrollable.menu .ui.menu .item{
+.ui.scrollable.menu .ui.dropdown, .ui.scrollable.menu .ui.menu .item {
 	position:static;
 }
 
-.ui.scrollable.wrapper {
-	position: relative;
-}
-
-.ui.scrollable.menu::-webkit-scrollbar{
+.ui.scrollable.menu::-webkit-scrollbar {
   display: none;
 }
 
-.ui.menu .dropdown.item .menu{
+.ui.menu .dropdown.item .menu {
 	min-width: 0;
 	width: 150px;
 	left: 70px;
 }
+
+.ui.basic.unpadded.segment {
+	padding: 0px;
+}
+
 
