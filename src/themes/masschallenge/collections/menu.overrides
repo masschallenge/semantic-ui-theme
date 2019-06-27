@@ -68,7 +68,7 @@
 	background: transparent;
 	border: 0;
 	z-index: auto;
-	padding:0 2em;
+	padding:0 1.6em;
 	width: auto;
 	font-weight: normal;
 }
