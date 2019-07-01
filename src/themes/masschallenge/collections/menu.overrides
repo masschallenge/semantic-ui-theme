@@ -63,4 +63,12 @@
 	left: 70px;
 }
 
-
+.ui.scrollable.menu .item > .basic.corner.label {
+	color: rgba(0,0,0,.60);
+	background: transparent;
+	border: 0;
+	z-index: auto;
+	padding:0 1.6em;
+	width: auto;
+	font-weight: normal;
+}
