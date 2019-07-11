@@ -71,4 +71,8 @@
 	padding:0 1.6em;
 	width: auto;
 	font-weight: normal;
+	margin-left: 0;
+	white-space: nowrap;
+	overflow-x: hidden;
 }
+
