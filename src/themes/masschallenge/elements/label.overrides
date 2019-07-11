@@ -1,8 +1,0 @@
-/*******************************
-         Label Overrides
-*******************************/
-.ui.scrollable.menu .item>.basic.corner.label {
-    margin-left: 0;
-    white-space: nowrap;
-    overflow-x: hidden;
-}
