@@ -1,0 +1,6 @@
+/*******************************
+         Button Overrides
+*******************************/
+.ui.step.mini.button {
+  min-width: 124px;
+}
