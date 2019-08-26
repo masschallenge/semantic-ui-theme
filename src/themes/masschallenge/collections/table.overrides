@@ -1,0 +1,11 @@
+/*******************************
+         Table Overrides
+*******************************/
+
+.ui.selectable.table tbody tr .info {
+  visibility: hidden;
+}
+
+.ui.selectable.table tbody tr:hover .info {
+  visibility: visible;
+}
