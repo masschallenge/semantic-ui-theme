@@ -1,0 +1,3 @@
+.ui.grid > .eleven.wide.computer.only.column.events.events {
+    display: none;
+}
