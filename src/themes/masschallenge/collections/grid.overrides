@@ -1,0 +1,7 @@
+/*******************************
+        Grid Overrides
+*******************************/
+
+.ui.grid>.unpadded.column {
+    padding-bottom: 0;
+}
