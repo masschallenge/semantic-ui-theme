@@ -2,6 +2,6 @@
         Grid Overrides
 *******************************/
 
-.ui.grid>.unpadded.column {
+.ui.compact.grid>.column {
     padding-bottom: 0;
 }
