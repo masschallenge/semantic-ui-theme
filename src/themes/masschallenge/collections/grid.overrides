@@ -1,0 +1,7 @@
+/*******************************
+        Grid Overrides
+*******************************/
+
+.ui.compact.grid > .column {
+    padding-bottom: 0;
+}
