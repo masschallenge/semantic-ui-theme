@@ -1,0 +1,7 @@
+.ui.normal.header {
+    font-weight: normal;
+}
+
+.ui.dark.header {
+    color: #1C1F2A;
+}
