@@ -4,3 +4,7 @@
 .ui.step.mini.button {
   min-width: 124px;
 }
+
+.ui.fullwidth.button {
+  width: 100%;
+}

@@ -9,3 +9,7 @@
 .ui.selectable.table tbody tr:hover .info {
   visibility: visible;
 }
+
+.ui.noborder.table tr td {
+  border: 0px;
+}
