@@ -5,7 +5,3 @@
 .ui.basic.unpadded.segment {
 	padding: 0px;
 }
-
-.ui.lightblue.segment {
-  background-color: #F1F3F5 !important;
-}

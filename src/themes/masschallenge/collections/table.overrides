@@ -12,5 +12,4 @@
 
 .ui.noborder.table tr td {
   border: 0px;
-  color: #8D8F94;
 }
