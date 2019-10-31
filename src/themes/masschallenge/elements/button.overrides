@@ -8,3 +8,7 @@
 .ui.fullwidth.button {
   width: 100%;
 }
+
+.ui.padded.button {
+  width: 50%;
+}
