@@ -1,3 +1,11 @@
 .ui.normal.header {
     font-weight: normal;
 }
+
+.ui.clickable.header {
+  cursor: pointer;
+}
+
+.ui.clickable.header:hover{
+  color: #1C1F2A;
+}
