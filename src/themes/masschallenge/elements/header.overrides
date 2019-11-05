@@ -9,3 +9,11 @@
 .ui.clickable.header:hover{
   color: #1C1F2A;
 }
+
+.ui.header > .fullWidth.content {
+    width: 100%;
+}
+
+.ui.darker.header {
+  color: #1C1F2A;
+}

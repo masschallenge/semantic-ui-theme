@@ -7,3 +7,15 @@
     box-shadow: initial;
     -webkit-box-shadow: initial;
 }
+
+@media only screen and (max-width: 767px) {
+  .ui.modal .ui.card .content > .ui.left.floated.image {
+    margin-right: 1rem !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .ui.modal .ui.card .content > .description {
+    padding: 0 !important;
+  }
+}
