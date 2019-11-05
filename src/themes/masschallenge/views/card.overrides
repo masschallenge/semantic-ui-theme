@@ -1,0 +1,9 @@
+/*******************************
+         Card Overrides
+*******************************/
+
+.ui.solid.grey.card {
+    background-color: #f1f3f5;
+    box-shadow: initial;
+    -webkit-box-shadow: initial;
+}
