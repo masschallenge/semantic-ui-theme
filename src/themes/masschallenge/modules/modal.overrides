@@ -16,3 +16,7 @@
   margin: .75rem;
   height: auto;
 }
+
+.ui.modal > .teal.segment {
+  background-color:  #b8dde4 !important;
+}
