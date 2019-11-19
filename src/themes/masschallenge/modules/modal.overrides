@@ -3,6 +3,19 @@
 *******************************/
 
 .ui.mini.modal > .unpadded.content {
-  text-align: center;
   padding: 0;
+}
+
+.ui.modal > .segment > .close.icon {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  font-size: 1em;
+  top: 0;
+  margin: .75rem;
+  height: auto;
+}
+
+.ui.modal > .teal.segment {
+  background-color:  #b8dde4 !important;
 }
