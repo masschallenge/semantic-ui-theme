@@ -26,7 +26,24 @@
   min-width: 320px;
 }
 
+.ui.modal .scrolling.content {
+    max-height: calc(85vh - 326px);
+}
+
 .ui.modal > .header > .close {
   position: absolute; 
   right: 10px;
+}
+.ui.mini.round.button {
+  border-radius: 50%;
+  padding: .75em;
+  height: 28px;
+  width: 28px;
+}
+.ui.mini.default.round.button:not(:hover) {
+  background-color: initial;
+}
+
+.ui.modal > .header .rbc-calendar {
+    margin: 0 -.5em;
 }
