@@ -19,3 +19,14 @@
 .ui.modal > .teal.segment {
   background-color:  #b8dde4 !important;
 }
+
+.ui.modal.centered {
+  margin-top: 4rem; 
+  max-width: 368px; 
+  min-width: 320px;
+}
+
+.ui.modal > .header > .close {
+  position: absolute; 
+  right: 10px;
+}
