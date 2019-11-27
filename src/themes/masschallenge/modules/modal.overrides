@@ -20,13 +20,13 @@
   background-color:  #b8dde4 !important;
 }
 
-.ui.modal.centered {
+.ui.modal.rbcCalendar {
   margin-top: 4rem; 
   max-width: 368px; 
   min-width: 320px;
 }
 
-.ui.modal .scrolling.content {
+.ui.modal.rbcCalendar .scrolling.content {
     max-height: calc(85vh - 326px);
 }
 
