@@ -1,0 +1,21 @@
+/*******************************
+         Icon Overrides
+*******************************/
+
+.ui.label.card-program {
+  border-radius: .2em;
+  color: #1C1F2A;
+  font-style: normal;
+  margin: 0 .25em;
+  padding: .5em;
+
+  @media only screen and (max-width: 767px) {
+    font-size: 1em;
+    line-height: .25em;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: .65em;
+    line-height: .25em;
+    margin-top: .5em;
+  }
+}
