@@ -1,0 +1,15 @@
+/*******************************
+         Icon Overrides
+*******************************/
+
+.ui.list > .item > .l-icon {
+  fill: #D2D2D4;
+  float: left;
+  padding: 0 .25em;
+  @media only screen and (max-width: 767px) {
+    height: 2.25em;
+  }
+  @media only screen and (min-width: 768px) {
+    height: 2em;
+  }
+}
