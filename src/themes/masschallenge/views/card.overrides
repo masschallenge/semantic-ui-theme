@@ -3,9 +3,9 @@
 *******************************/
 
 .ui.solid.grey.card {
-    background-color: #f1f3f5;
-    box-shadow: initial;
-    -webkit-box-shadow: initial;
+  background-color: #f1f3f5;
+  box-shadow: initial;
+  -webkit-box-shadow: initial;
 }
 
 @media only screen and (max-width: 767px) {
@@ -17,5 +17,101 @@
 
   .ui.modal .ui.card .content > .description {
     padding: 0 !important;
+  }
+}
+
+.ui.card.base-card {
+  box-shadow: 0 .125em .25em rgba(51, 53, 55, 0.1);
+  @media only screen and (max-width: 767px) {
+    &.ui.card, .ui.cards > .card {
+      min-width: 351px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    &.ui.card, .ui.cards > .card {
+      max-width: 168px;
+    }
+  }
+}
+
+.ui.card > .content.card-content {
+  padding: .2em;
+}
+
+.ui.card > .content > .header:not(.ui), .ui.list > .item .header.card-header {
+  padding: 0 .5em;
+  @media only screen and (max-width: 767px) {
+    font-size: 1.2em;
+    line-height: 1em;
+    margin-top: .2em;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: .85em;
+    margin-top: .25em;
+  }
+}
+
+.ui.card > .content > .description.card-description,
+.description.card-description {
+  align-items: center;
+  color: #60626A;
+  font-style: normal;
+  font-weight: 500;
+  padding: 0 .5em;
+  @media only screen and (max-width: 767px) {
+    font-size: 1em;
+    line-height: 2em;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: .75em;
+  }
+}
+
+.ui.card > .content > .ui.list > .item > .content.card-item-content {
+  background: #F1F3F5;
+  border-radius: .25em;
+  margin: 0 .25em;
+  overflow: hidden;
+}
+
+.ui.card > .content > .icon.card-check-circle {
+  padding-left: .5em;
+  @media only screen and (max-width: 767px) {
+    line-height: .25em;
+    font-size: .85em;
+  }
+  @media only screen and (min-width: 768px) {
+    line-height: 2em;
+    font-size: .65em;
+  }
+}
+
+.ui.card > .content > .icon.reserved {
+  color: #0EACBD;
+}
+
+.ui.card > .content > .icon.cancelled {
+  color: #BF0061;
+}
+
+.ui.card > .content > .icon.card-icon {
+  color: #60626A;
+  font-weight: 900;
+  @media (min-width: 768px) {
+    line-height: 2em;
+    &.icon {
+      font-size: .65em;
+      line-height: 2.25em;
+    }
+  }
+}
+
+.ui.card > .content > .mc-card-time {
+  color: #60626A;
+  font-style: normal;
+  margin-left: .5em;
+  @media (min-width: 768px) {
+    font-size: .65em;
+    line-height: 2.25em;
   }
 }
