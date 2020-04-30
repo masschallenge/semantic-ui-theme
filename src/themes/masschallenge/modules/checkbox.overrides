@@ -1,0 +1,39 @@
+/*******************************
+         Checkbox Overrides
+*******************************/
+
+.ui.primary.checkbox label {
+  color: @primaryColor;
+  font-weight: bold;
+  margin-right: 20px;
+  border: 7px solid #fff;
+}
+
+.ui.primary.checkbox label:hover {
+  color: @primaryColor;
+  background-color: #efebeb;
+  border: 7px solid #efebeb;
+  border-radius: 5px
+
+}
+
+.ui.primary.checkbox input:focus~label {
+  color: @primaryColor;
+
+}
+
+.ui.default.checkbox label {
+  margin-right: 20px;
+  border: 7px solid #fff;
+}
+
+.ui.default.checkbox label:hover {
+  background-color: #efebeb;
+  border: 7px solid #efebeb;
+  border-radius: 5px
+
+}
+
+
+
+
