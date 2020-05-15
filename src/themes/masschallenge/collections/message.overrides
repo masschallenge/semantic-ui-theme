@@ -13,3 +13,17 @@ Types of Messages
   padding: 10px 0 0 0;
   margin: -0.5em 0 1em;
 }
+
+.ui.floating.message.office-hour-message {
+  min-width: 500px;
+
+  &.danger {
+    background: #FEFAF4;
+    border: 1px solid #C7BA9E;
+  }
+
+  &.success {
+    background: #F9FFFF;
+    border: 1px solid #B2D4DC;
+  }
+}

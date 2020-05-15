@@ -17,33 +17,96 @@
 }
 
 .ui.modal > .teal.segment {
-  background-color:  #b8dde4 !important;
+  background-color: #b8dde4 !important;
 }
 
 .ui.modal.rbcCalendar {
-  margin-top: 4rem; 
-  max-width: 368px; 
+  margin-top: 4rem;
+  max-width: 368px;
   min-width: 320px;
 }
 
 .ui.modal.rbcCalendar .scrolling.content {
-    max-height: calc(85vh - 326px);
+  max-height: calc(85vh - 326px);
 }
 
 .ui.modal > .header > .close {
-  position: absolute; 
+  position: absolute;
   right: 10px;
 }
+
 .ui.mini.round.button {
   border-radius: 50%;
   padding: .75em;
   height: 28px;
   width: 28px;
 }
+
 .ui.mini.default.round.button:not(:hover) {
   background-color: initial;
 }
 
 .ui.modal > .header .rbc-calendar {
-    margin: 0 -.5em;
+  margin: 0 -.5em;
+}
+
+.ui.tiny.modal.cancel-reservation-modal {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  width: 450px;
+}
+
+.ui.header .content.modal-header {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1C1F2A;
+}
+
+.ui.header .sub.header.modal-subheader {
+  font-size: 14px;
+  line-height: 19px;
+  color: #1C1F2A;
+}
+
+.ui.header .content.list-title {
+  font-size: 12px;
+  color: #1C1F2A;
+}
+
+.ui.header .sub.header.list-content {
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #60626A;
+}
+
+.ui.modal > .content > .modal-textarea {
+  font-size: 13px;
+  line-height: 18px;
+  color: #1C1F2A;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 14px;
+
+  background: #F1F3F4;
+  border: 1px solid #F1F3F4;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.ui.modal > .content > .modal-textarea textarea::placeholder {
+  color: #8D8F94;
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 10px 0;
+}
+
+.ui.modal > .actions.reservation-actions {
+  background: #F9FAFB;
+  display: flex;
+  justify-content: space-between;
 }
