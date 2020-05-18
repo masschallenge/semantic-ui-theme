@@ -28,3 +28,7 @@
 @linkUnderline: none;
 @linkHoverColor: darken(@linkColor, 5);
 @linkHoverUnderline: @linkUnderline;
+
+/********** Colors **********/
+@itemTextColor: #1C1F2A;
+@midGray: #60626A;
