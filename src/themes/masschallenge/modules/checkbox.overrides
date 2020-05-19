@@ -39,34 +39,17 @@
          MC Overrides
 *******************************/
 
-
-.ui.radio.checkbox.primary label {
-  color: @primaryColor;
+.ui.radio.checkbox.button {
+  background-color: transparent;
+  padding: .5em 1em;
+}
+.ui.radio.checkbox.button:hover {
+  background-color: @greyBackground;
+}
+.ui.radio.checkbox.button label {
   font-weight: 600;
-  margin-right: 20px;
-  border: 7px solid @whiteColor;
 }
 
-.ui.radio.checkbox.primary label:hover {
+.ui.radio.checkbox.button.primary label {
   color: @primaryColor;
-  background-color: @greyBackground;
-  border: 7px solid @greyBackground;
-  border-radius: 3px
-
 }
-
-.ui.radio.checkbox.default label {
-  margin-right: 20px;
-  border: 7px solid @whiteColor
-}
-
-.ui.radio.checkbox.default label:hover {
-  background-color: @greyBackground;
-  border: 7px solid @greyBackground;
-  border-radius: 3px
-
-}
-
-
-
-
