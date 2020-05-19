@@ -21,6 +21,6 @@
 }
 
 .ui.dark.label{
-  background: #077291;
-  color: #ffffff;
+  background: @darkPrimaryColor;
+  color: @whiteColor;
 }

@@ -14,13 +14,17 @@
 @pageBackground: #f1f1f1;
 @lineHeight: 1.3;
 @textColor: #676767;
+@greyBackground: #efebeb;
+@whiteColor: #fff;
 
 /********** Brand colors **********/
 
 @primaryColor: #0eacbd;
+@darkPrimaryColor: #077291;
 @secondaryColor: #808284;
 @lightPrimaryColor : #75c1ce;
 @lightSecondaryColor: #a6a8aa;
+
 
 /********** Links **********/
 

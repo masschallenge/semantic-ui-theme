@@ -1,5 +1,5 @@
 /*******************************
-         Checkbox Overrides
+         Theme Overrides
 *******************************/
 
 @font-face {
@@ -35,36 +35,35 @@
 .plus:before { content: '\e802'; }
 */
 
+/*******************************
+         MC Overrides
+*******************************/
+
 
 .ui.radio.checkbox.primary label {
   color: @primaryColor;
-  font-weight: bold;
+  font-weight: 600;
   margin-right: 20px;
-  border: 7px solid #fff;
+  border: 7px solid @whiteColor;
 }
 
 .ui.radio.checkbox.primary label:hover {
   color: @primaryColor;
-  background-color: #efebeb;
-  border: 7px solid #efebeb;
-  border-radius: 5px
-
-}
-
-.ui.radio.checkbox.primary input:focus~label {
-  color: @primaryColor;
+  background-color: @greyBackground;
+  border: 7px solid @greyBackground;
+  border-radius: 3px
 
 }
 
 .ui.radio.checkbox.default label {
   margin-right: 20px;
-  border: 7px solid #fff;
+  border: 7px solid @whiteColor
 }
 
 .ui.radio.checkbox.default label:hover {
-  background-color: #efebeb;
-  border: 7px solid #efebeb;
-  border-radius: 5px
+  background-color: @greyBackground;
+  border: 7px solid @greyBackground;
+  border-radius: 3px
 
 }
 
