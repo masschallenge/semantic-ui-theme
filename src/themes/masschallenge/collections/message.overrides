@@ -18,12 +18,12 @@ Types of Messages
   min-width: 500px;
 
   &.danger {
-    background: #FEFAF4;
-    border: 1px solid #C7BA9E;
+    background: @dangerBackground;
+    border: @dangerBorder;
   }
 
   &.success {
-    background: #F9FFFF;
-    border: 1px solid #B2D4DC;
+    background: @successBackground;
+    border: @successBorder;
   }
 }
