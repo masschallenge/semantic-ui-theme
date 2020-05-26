@@ -1,6 +1,6 @@
-@dangerBorderColor: #C7BA9E;
-@successBorderColor: #B2D4DC;
-@dangerBackground: #FEFAF4;
-@successBackground: #F9FFFF;
+@dangerBorderColor: #c7ba9e;
+@successBorderColor: #b2d4dc;
+@dangerBackground: #fefaf4;
+@successBackground: #f9ffff;
 @dangerBorder: @borderWidth solid @dangerBorderColor;
 @successBorder: @borderWidth solid @successBorderColor;

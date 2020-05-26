@@ -17,6 +17,8 @@
 @greyBackground: #efebeb;
 @whiteColor: #fff;
 @borderWidth: 1px;
+@borderWidthMed: 2px;
+@borderWidthThick: 3px;
 
 /********** Brand colors **********/
 
@@ -35,5 +37,5 @@
 @linkHoverUnderline: @linkUnderline;
 
 /********** Colors **********/
-@itemTextColor: #1C1F2A;
-@midGray: #60626A;
+@itemTextColor: #1c1f2a;
+@midGray: #60626a;
