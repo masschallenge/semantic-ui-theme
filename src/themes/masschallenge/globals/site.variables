@@ -16,9 +16,6 @@
 @textColor: #676767;
 @greyBackground: #efebeb;
 @whiteColor: #fff;
-@borderWidth: 1px;
-@borderWidthMed: 2px;
-@borderWidthThick: 3px;
 
 /********** Brand colors **********/
 

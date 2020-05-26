@@ -2,5 +2,5 @@
 @successBorderColor: #b2d4dc;
 @dangerBackground: #fefaf4;
 @successBackground: #f9ffff;
-@dangerBorder: @borderWidth solid @dangerBorderColor;
-@successBorder: @borderWidth solid @successBorderColor;
+@dangerBorder: 1px solid @dangerBorderColor;
+@successBorder: 1px solid @successBorderColor;
