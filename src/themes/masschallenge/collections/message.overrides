@@ -14,8 +14,19 @@ Types of Messages
   margin: -0.5em 0 1em;
 }
 
+.ui.message.toast {
+  position: fixed;
+  left: 50%;
+  top: 90%;
+  z-index: 100;
+  box-sizing: border-box;
+  border-radius: 3px;
+  min-height: 72px;
+  transform: translate(-50%, -90%);
+}
+
 .ui.floating.message.office-hour-message {
-  min-width: 500px;
+  width: 500px;
 
   &.danger {
     background: @dangerBackground;
