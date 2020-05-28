@@ -54,7 +54,7 @@
 .ui.card > .content > .description.card-description,
 .description.card-description {
   align-items: center;
-  color: #60626A;
+  color: @midGray;
   font-style: normal;
   font-weight: 500;
   padding: 0 .5em;
@@ -95,7 +95,7 @@
 }
 
 .ui.card > .content > .icon.card-icon {
-  color: #60626A;
+  color: @midGray;
   font-weight: 900;
   @media (min-width: 768px) {
     line-height: 2em;
@@ -107,7 +107,7 @@
 }
 
 .ui.card > .content > .mc-card-time {
-  color: #60626A;
+  color: @midGray;
   font-style: normal;
   margin-left: .5em;
   @media (min-width: 768px) {
