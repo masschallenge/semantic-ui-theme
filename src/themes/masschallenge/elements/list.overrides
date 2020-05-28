@@ -13,3 +13,10 @@
     height: 2em;
   }
 }
+
+.ui.list > .header.list-header {
+  font-family: @googleFontName;
+  font-size: 14px;
+  line-height: 19px;
+  color: @itemTextColor;
+}
