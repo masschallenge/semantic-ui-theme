@@ -1,0 +1,6 @@
+@dangerBorderColor: #c7ba9e;
+@successBorderColor: #b2d4dc;
+@dangerBackground: #fefaf4;
+@successBackground: #f9ffff;
+@dangerBorder: 1px solid @dangerBorderColor;
+@successBorder: 1px solid @successBorderColor;

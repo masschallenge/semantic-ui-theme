@@ -1,0 +1,9 @@
+/********** colors **********/
+
+@textColor: @itemTextColor;
+@textareaBackground: #f1f3f4;
+@textareaColor: #8d8f94;
+@listContentColor: @midGray;
+@borderColor: @textareaBackground;
+@border: 1px solid @borderColor;
+@textareaBorderRadius: @4px;
