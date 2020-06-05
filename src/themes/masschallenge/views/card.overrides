@@ -24,12 +24,12 @@
   box-shadow: 0 .125em .25em rgba(51, 53, 55, 0.1);
   @media only screen and (max-width: 767px) {
     &.ui.card, .ui.cards > .card {
-      min-width: 351px;
+      min-width: 11rem;
     }
   }
   @media only screen and (min-width: 768px) {
     &.ui.card, .ui.cards > .card {
-      max-width: 168px;
+      min-width: 11rem;
     }
   }
 }
