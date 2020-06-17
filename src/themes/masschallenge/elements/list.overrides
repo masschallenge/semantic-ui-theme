@@ -20,6 +20,6 @@
   line-height: 19px;
   color: @itemTextColor;
 }
-.ui.list.no-margin{
+div.ui.list.no-margin{
   margin: 0;
 }
