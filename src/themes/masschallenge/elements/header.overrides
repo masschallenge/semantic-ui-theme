@@ -17,3 +17,17 @@
 .ui.darker.header {
   color: @itemTextColor;
 }
+
+.ui.header .sub.header.sub-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: @midGray;
+}
+
+.ui.header.list-header {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: @itemTextColor;
+}
