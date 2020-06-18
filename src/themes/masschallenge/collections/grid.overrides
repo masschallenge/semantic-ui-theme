@@ -3,5 +3,45 @@
 *******************************/
 
 .ui.compact.grid > .column {
-    padding-bottom: 0;
+  padding-bottom: 0;
+}
+
+.ui.grid > .row > [class*="fourteen wide"].column.wide-column {
+  // .fourteen.wide width has !important flag
+  width: 92% !important;
+  padding: 0 0 0 1em;
+}
+
+.ui.grid.scrollable-grid {
+  overflow: auto;
+  max-height: 340px;
+}
+
+.ui.grid.scrollable-grid::-webkit-scrollbar {
+  display: none;
+}
+
+.ui.grid > .row.reservation-row {
+  background: @lightGray;
+  border-radius: 3px;
+  margin: 2px 0;
+}
+
+.ui.grid > .row.form-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.ui.grid > .row > .column.description {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: @midGray;
+}
+
+.ui.grid > .row > .column.form-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: @itemTextColor;
 }
