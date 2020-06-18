@@ -45,3 +45,8 @@
   line-height: 19px;
   color: @itemTextColor;
 }
+
+.ui.grid>.row>[class*="eight wide"].column.eight-wide {
+  padding-left: 0;
+  padding-right: 0;
+}
