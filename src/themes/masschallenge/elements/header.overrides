@@ -24,10 +24,3 @@
   line-height: 19px;
   color: @midGray;
 }
-
-.ui.header.list-header {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  color: @itemTextColor;
-}

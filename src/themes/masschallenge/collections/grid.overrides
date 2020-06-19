@@ -6,7 +6,7 @@
   padding-bottom: 0;
 }
 
-.ui.grid > .row > [class*="fourteen wide"].column.wide-column {
+.ui.grid > .row > [class*="fourteen wide"].column.fourteen-wide {
   // .fourteen.wide width has !important flag
   width: 92% !important;
   padding: 0 0 0 1em;
@@ -24,7 +24,7 @@
 .ui.grid > .row.reservation-row {
   background: @lightGray;
   border-radius: 3px;
-  margin: 2px 0;
+  margin: 4px 0;
 }
 
 .ui.grid > .row.form-item {
@@ -46,7 +46,23 @@
   color: @itemTextColor;
 }
 
-.ui.grid>.row>[class*="eight wide"].column.eight-wide {
+.ui.grid > .row > [class*="eight wide"].column.eight-wide {
   padding-left: 0;
   padding-right: 0;
+}
+
+.ui.grid > .row > .column.zero-padding-right {
+  padding-right: 0;
+}
+
+.ui.grid > .row > .column.zero-padding-left {
+  padding-left: 0;
+}
+
+.ui.grid > .row > .column.center-aligned-column {
+  align-self: center;
+}
+
+.ui.zero-margin.grid {
+  margin: 0;
 }
