@@ -24,3 +24,7 @@
   line-height: 19px;
   color: @midGray;
 }
+
+.sub.header.small {
+  font-size: 80%;
+}
