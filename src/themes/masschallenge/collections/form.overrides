@@ -1,0 +1,14 @@
+.ui.form textarea.reservation-textarea {
+  background: @lightGray;
+  border: 1px solid @lightGray;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 19px;
+  color: @itemTextColor;
+}
+
+.ui.form textarea.reservation-textarea::placeholder {
+  font-size: 13px;
+  line-height: 18px;
+  color: @darkGray;
+}
