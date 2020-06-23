@@ -115,3 +115,7 @@
     line-height: 2.25em;
   }
 }
+
+.ui.card > .content > .mc-blue {
+  color: @primaryColor;
+}
