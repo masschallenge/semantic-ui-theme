@@ -16,6 +16,10 @@
   }
 }
 
+ui.label.tiny {
+  fontsize: 10px;
+}
+
 .ui.dark.label{
   background: @darkPrimaryColor;
   color: @whiteColor;
