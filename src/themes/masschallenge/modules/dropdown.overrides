@@ -1,9 +1,0 @@
-.ui.fluid.dropdown.reservation-dropdown, .ui.dropdown:not(.button)>.default.text {
-  background: @lightGray;
-  border: 1px solid @lightGray;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 19px;
-  color: @itemTextColor;
-}

@@ -12,13 +12,3 @@
 .ui.wide.button {
   width: 50%;
 }
-
-.ui.basic.button.view-profile {
-  // .ui.basic.button color is set with !important flag
-  color: @primaryColor !important;
-  font-weight: 600;
-}
-
-.ui.icon.button > .icon.external-link {
-  color: @primaryColor
-}

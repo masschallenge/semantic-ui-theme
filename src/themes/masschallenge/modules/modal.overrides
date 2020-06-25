@@ -50,7 +50,7 @@
   margin: 0 -.5em;
 }
 
-.ui.tiny.modal.reservation-modal {
+.ui.tiny.modal.cancel-reservation-modal {
   font-family: @googleFontName;
   font-weight: 600;
   width: 450px;

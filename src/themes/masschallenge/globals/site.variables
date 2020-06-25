@@ -36,5 +36,3 @@
 /********** Colors **********/
 @itemTextColor: #1c1f2a;
 @midGray: #60626a;
-@lightGray: #f1f3f5;
-@darkGray: #8d8f94;

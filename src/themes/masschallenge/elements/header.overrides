@@ -17,14 +17,3 @@
 .ui.darker.header {
   color: @itemTextColor;
 }
-
-.ui.header .sub.header.sub-title {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 19px;
-  color: @midGray;
-}
-
-.sub.header.small {
-  font-size: 80%;
-}
