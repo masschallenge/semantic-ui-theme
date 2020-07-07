@@ -111,8 +111,7 @@
   font-style: normal;
   margin-left: .5em;
   @media (min-width: 768px) {
-    font-size: .65em;
-    line-height: 2.25em;
+    font-size: 0.8em;
   }
 }
 
