@@ -1,18 +1,14 @@
 .ui.label.card-program {
-  border-radius: .2em;
   color: @itemTextColor;
-  font-style: normal;
-  margin: 0 .25em;
-  padding: .5em;
+  margin: 0.5em;
+  padding: 0.5em;
 
   @media only screen and (max-width: 767px) {
-    font-size: 1em;
-    line-height: .25em;
+    font-size: 0.75em;
   }
   @media only screen and (min-width: 768px) {
-    font-size: .65em;
-    line-height: .25em;
-    margin-top: .5em;
+    font-size: 0.65em;
+    line-height: 0.75em;
   }
 }
 
