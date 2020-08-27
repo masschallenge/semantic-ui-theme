@@ -12,3 +12,14 @@
   line-height: 18px;
   color: @darkGray;
 }
+
+.ui.form textarea.create-textarea {
+  width: 27rem;
+	padding: 1rem;
+	border: 0;
+	background: @lightGray;
+}
+
+.ui.form textarea.create-textarea::placeholder {
+  color: @darkGray;
+}
