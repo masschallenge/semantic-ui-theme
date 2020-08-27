@@ -19,6 +19,9 @@
   "dependencies": {
     "fs-extra": "^7.0.0"
   },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
   "devDependencies": {
     "semantic-ui": "^2.4.1",
     "prettier": "^1.14.3"
