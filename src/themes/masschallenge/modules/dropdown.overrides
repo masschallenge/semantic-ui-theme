@@ -7,3 +7,10 @@
   line-height: 19px;
   color: @itemTextColor;
 }
+
+.ui.form .field.error.time-dropdown .ui.dropdown, 
+.ui.form .field.error.time-dropdown .ui.dropdown .item, 
+.ui.form .field.error.time-dropdown .ui.dropdown .text
+{
+  background: none;
+}
