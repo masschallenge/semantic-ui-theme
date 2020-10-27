@@ -14,10 +14,11 @@
 }
 
 .ui.form textarea.create-textarea {
-  width: 27rem;
-	padding: 1rem;
-	border: 0;
-	background: @lightGray;
+  width: 26rem;
+  margin-left: 0.8rem;
+  padding: 1rem 0.5rem;
+  border: 0;
+  background: @lightGray;
 }
 
 .ui.form textarea.create-textarea::placeholder {
