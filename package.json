@@ -4,7 +4,8 @@
   "description": "MassChallenge customisations of Semantic UI.",
   "scripts": {
     "build": "gulp build",
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "preinstall": "npx npm-force-resolutions"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,8 @@
     "fs-extra": "^7.0.0"
   },
   "resolutions": {
-    "graceful-fs": "^4.2.4"
+    "graceful-fs": "^4.2.4",
+    "lodash": "4.17.19"
   },
   "devDependencies": {
     "semantic-ui": "^2.4.1",
