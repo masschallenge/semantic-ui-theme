@@ -22,7 +22,8 @@
   },
   "resolutions": {
     "graceful-fs": "^4.2.4",
-    "lodash": "4.17.19"
+    "lodash": "4.17.19",
+    "diff": "3.5.0"
   },
   "devDependencies": {
     "semantic-ui": "^2.4.1",
