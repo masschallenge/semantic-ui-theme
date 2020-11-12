@@ -22,7 +22,8 @@
   },
   "resolutions": {
     "graceful-fs": "^4.2.4",
-    "set-value": "2.0.1"
+    "set-value": "2.0.1",
+    "diff": "3.5.0"
   },
   "devDependencies": {
     "semantic-ui": "^2.4.1",
