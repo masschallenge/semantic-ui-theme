@@ -21,9 +21,11 @@
     "fs-extra": "^7.0.0"
   },
   "resolutions": {
+    "diff": "3.5.0",
     "graceful-fs": "^4.2.4",
     "lodash": "4.17.19",
-    "diff": "3.5.0"
+    "lodash.template": "4.5.0",
+    "set-value": "2.0.1"
   },
   "devDependencies": {
     "semantic-ui": "^2.4.1",
