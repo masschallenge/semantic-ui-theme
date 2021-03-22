@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/masschallenge/semantic-ui-theme#readme",
   "dependencies": {
-    "fs-extra": "^7.0.0"
+    "fs-extra": "^7.0.0",
+    "lodash.template": "4.5.0"
   },
   "resolutions": {
     "diff": "3.5.0",
