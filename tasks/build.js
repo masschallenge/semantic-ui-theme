@@ -6,11 +6,15 @@ var // dependencies
   gulp = require("gulp-help")(require("gulp")),
   runSequence = require("run-sequence"),
   rename = require("gulp-rename"),
+  del = require("del"),
   // config
   config = require("./config/user"),
   install = require("./config/project/install"),
-  // task sequence
-  tasks = [];
+  // themes
+  themes = require("../themes");
+// task sequence
+sequentialTasks = [];
+parallelTasks = [];
 
 // sub-tasks
 if (config.rtl) {
@@ -18,11 +22,9 @@ if (config.rtl) {
 }
 require("./collections/build")(gulp);
 
-const themes = ["masschallenge", "staff"];
-
 module.exports = function(callback) {
-  tasks.push("build-javascript");
-  tasks.push("build-assets");
+  parallelTasks.push("build-javascript");
+  parallelTasks.push("build-assets");
   themes.forEach((theme) => {
     console.info(`Building Semantic ${theme}`);
     gulp.task(`copy theme ${theme}`, function() {
@@ -33,15 +35,15 @@ module.exports = function(callback) {
 
     gulp.task(`build css ${theme}`, [`build-css`]);
 
-    gulp.task(`rename css ${theme}`, () =>
+    gulp.task(`rename css ${theme}`, [`build css ${theme}`], () =>
       gulp
         .src("./dist/semantic.min.css")
         .pipe(rename(`semantic.${theme}.min.css`))
-        .pipe(gulp.dest("./dist/"))
+        .pipe(gulp.dest("./dist/temp/"))
     );
 
-    gulp.task(`copy output ${theme}`, [`build css ${theme}`], function() {
-      return gulp.src(`./dist/**/*.css`).pipe(gulp.dest(`./dist/${theme}`));
+    gulp.task(`copy output ${theme}`, function() {
+      return gulp.src(`./dist/temp/*.css`).pipe(gulp.dest(`./dist/`));
     });
 
     if (!install.isSetup()) {
@@ -51,10 +53,13 @@ module.exports = function(callback) {
       return 1;
     }
 
-    tasks.push(`copy theme ${theme}`);
-    tasks.push(`rename css ${theme}`);
-    tasks.push(`copy output ${theme}`);
+    sequentialTasks.push(`copy theme ${theme}`);
+    sequentialTasks.push(`rename css ${theme}`);
+    sequentialTasks.push(`copy output ${theme}`);
+  });
+  gulp.task("clean", function() {
+    return del("./dist/temp/**", { force: true });
   });
 
-  runSequence(...tasks, callback);
+  runSequence(parallelTasks, ...sequentialTasks, ["clean"], callback);
 };
