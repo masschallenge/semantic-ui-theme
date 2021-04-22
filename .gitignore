@@ -81,6 +81,7 @@ src/site/
 src/*.less
 src/themes/*
 tasks/*
+!tasks/build.js
 gulpfile.js
 !src/themes/masschallenge/
 dist/components

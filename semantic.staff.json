@@ -1,0 +1,23 @@
+
+  {
+    "base": ".",
+    "paths": {
+      "source": {
+        "config": "src/staffTheme.config",
+        "definitions": "src/definitions/",
+        "site": "src/site/",
+        "themes": "src/themes/"
+      },
+      "output": {
+        "packaged": "dist/",
+        "uncompressed": "dist/components/staff/",
+        "compressed": "dist/components/staff",
+        "themes": "dist/themes/staff"
+      },
+      "clean": "dist/"
+    },
+    "permission": false,
+    "autoInstall": true,
+    "rtl": false,
+    "version": "2.4.2"
+  }
